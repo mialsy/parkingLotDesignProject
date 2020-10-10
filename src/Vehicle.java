@@ -1,8 +1,8 @@
 public abstract class Vehicle {
     private final String plate;
-    private final VechicleSize size;
+    private final VehicleSize size;
 
-    public Vehicle(String plate, VechicleSize size) {
+    public Vehicle(String plate, VehicleSize size) {
         this.plate = plate;
         this.size = size;
     }
@@ -11,7 +11,5 @@ public abstract class Vehicle {
         return plate;
     }
 
-    public VechicleSize size() {
-        return size;
-    }
+    public abstract VehicleSize size();
 }
