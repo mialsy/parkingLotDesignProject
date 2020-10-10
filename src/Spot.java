@@ -1,5 +1,3 @@
-import java.util.Vector;
-
 public class Spot {
     private final int id;
     private final VehicleSize maxCapacity;
@@ -30,7 +28,7 @@ public class Spot {
         return isEmpty() && (v.size().volume() < maxCapacity.volume());
     }
 
-    Integer park(Vehicle v) {
+    public Integer park(Vehicle v) {
         if (fit(v)) {
             currentVehicle = v;
             return id;
@@ -39,7 +37,7 @@ public class Spot {
         }
     }
 
-    Vehicle leave() {
+    public Vehicle leave() {
         Vehicle outVehicle = currentVehicle;
         currentVehicle = null;
         return outVehicle;

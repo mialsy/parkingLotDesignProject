@@ -1,6 +1,7 @@
 public class Truck extends Vehicle {
-    public Truck(String plate, VehicleSize size) {
-        super(plate, size);
+
+    public Truck(String plate) {
+        super(plate);
     }
 
     @Override
