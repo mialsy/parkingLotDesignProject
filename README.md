@@ -23,7 +23,7 @@ The relationship between the classes are as below:
 
 <p>
 Also designed an enum to indicate the size of the vehicle and the max capacity of the spot.
-    - Vehicle size (COMPACT, MIDSIZE, LARGE)
+    <li>Vehicle size (COMPACT, MIDSIZE, LARGE)</li>
 </p>
 
 <p>
