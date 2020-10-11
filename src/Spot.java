@@ -8,6 +8,16 @@ public class Spot {
         this.maxCapacity = maxCapacity;
     }
 
+
+    @Override
+    public String toString() {
+        return "Spot{" +
+                "id=" + id +
+                ", maxCapacity=" + maxCapacity +
+                ", currentVehicle=" + currentVehicle +
+                '}';
+    }
+
     public int getId() {
         return id;
     }
@@ -25,7 +35,7 @@ public class Spot {
     }
 
     boolean fit(Vehicle v) {
-        return isEmpty() && (v.size().volume() < maxCapacity.volume());
+        return isEmpty() && (v.size().volume() <= maxCapacity.volume());
     }
 
     public Integer park(Vehicle v) {
