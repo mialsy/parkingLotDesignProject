@@ -11,7 +11,7 @@ It does not support modification of the spot once created (i.e. you cannot add n
     <li> public abstract class Vehicle, 
     <li> public class Car extends Vehicle, 
     <li> public class Truck extends Vehicle, 
-    <li> public class Bus extends Vehicle.</li> </p>
+    <li> public class Bus extends Vehicle.</li></p>
    
 <p> 
 The relationship between the classes are as below:
@@ -23,8 +23,7 @@ The relationship between the classes are as below:
 
 <p>
 Also designed an enum to indicate the size of the vehicle and the max capacity of the spot.
-    <li>Vehicle size (COMPACT, MIDSIZE, LARGE)</li>
-</p>
+    <li>Vehicle size (COMPACT, MIDSIZE, LARGE)</li></p>
 
 <p>
 ParkingLot has the following methods:
@@ -33,7 +32,7 @@ ParkingLot has the following methods:
       <li>park(Vehicle)
       <li>park(Vehicle, Spot)
       <li>exit(Vehicle)
-      <li>exit(Vehicle, int)</p>  
+      <li>exit(Vehicle, int)</li></p>
 <p>  
 Spot has the following methods:
     <li> getId 
