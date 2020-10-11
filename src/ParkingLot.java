@@ -4,7 +4,7 @@ import java.util.Map;
 
 /**
  * A basic parking lot that supports park and exit
- *
+ * once created, the spots will not be able to be modified
  */
 public class ParkingLot {
     private final Spot[] spotList;
